@@ -94,7 +94,7 @@ Length and structure of the report
 
 The actual report can be structured according to Introduction, Methods, Results, Discussion. However, this is not mandatory. Different overall organizations of the report can be used, if necessary. As a general guideline we would like to indicate that a Master report is not supposed to reach the comprehensiveness of a PhD thesis. An adequate length of the thesis is between 20-40 pages (This page count assumes the format referred to above. This count includes the text, figures, figure captions, tables but excludes cover pages, abstract, acknowledgements, table of contents, references and also excludes technical appendices, such as for example programming source codes). The number of 20-40 pages is regarded as a guideline: If a student wants to write 50 pages instead, that is discouraged but perfectly tolerated. A longer report will not result in a lower grade. However, a report should have neither 5 nor 150 pages.
 
-A **typical structure** of the final report of the thesis would be the following (CESIM):
+A **typical structure** of the final report of the thesis would be the following (CSIM):
 
     - Abstract
     - Keywords
@@ -115,7 +115,7 @@ A **typical structure** of the final report of the thesis would be the following
         - Future steps
 
 
-Schedule (CESIM)
+Schedule (CSIM)
 ----------------
 
 The schedule associated to the steps followed in a master thesis are approximately as follows:
