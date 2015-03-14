@@ -132,7 +132,7 @@ The schedule associated to the steps followed in a master thesis are approximate
     - First week of July: Students deliver their final master thesis report and make their defence before an evaluation board to get their final grade.
 
 
-Example Theses (CESIM)
+Example Theses (CSIM)
 ----------------------
 
 http://www.upf.edu/csim/information/thesis/
@@ -142,8 +142,3 @@ Thesis supervisors
 ------------------
 
 http://www.upf.edu/iis/information/thesis/supervisors.html
-
-
-
-
-
