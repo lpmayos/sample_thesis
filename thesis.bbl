@@ -1,0 +1,17 @@
+\begin{thebibliography}{}
+
+\bibitem[Aly and Tapus, 2012]{Aly2012}
+Aly, A. and Tapus, A. (2012).
+\newblock {Prosody-driven robot ARM gestures generation in human-robot
+  interaction}.
+\newblock In {\em Proceedings of the seventh annual ACM/IEEE international
+  conference on Human-Robot Interaction - HRI '12}, page 257, New York, New
+  York, USA. ACM Press.
+
+\bibitem[Bremner et~al., 2009]{Bremner2009}
+Bremner, P., Pipe, A.~G., Fraser, M., Subramanian, S., and Melhuish, C. (2009).
+\newblock {Beat gesture generation rules for human-robot interaction}.
+\newblock In {\em RO-MAN 2009 - The 18th IEEE International Symposium on Robot
+  and Human Interactive Communication}, pages 1029--1034. IEEE.
+
+\end{thebibliography}

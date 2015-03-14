@@ -1,0 +1,141 @@
+\documentclass[12pt, a4paper, oneside]{upf_thesis}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% to include graphics and images
+\usepackage{graphicx}
+
+% font definition
+\usepackage{times}
+
+% to add blank pages
+\usepackage{afterpage}
+
+% to determine the margins
+% ref: https://www.sharelatex.com/learn/Page_size_and_margins
+\usepackage{geometry}
+\geometry{
+     a4paper,
+     total={210mm,297mm},
+     left=30mm,
+     right=30mm,
+     top=30mm,
+     bottom=30mm,
+ }
+
+
+% no headings
+\pagestyle{plain}
+
+% no indentation of paragraphs
+\setlength{\parindent}{0pt}
+
+% index
+\usepackage{makeidx}
+\makeindex
+
+% bibliography
+\bibliographystyle{apalike}
+
+\selectlanguage{english}
+
+
+% your information here
+% -----------------------------------------------------------------------------
+\title{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis lectus ut laoreet mollis. Duis gravida blandit.}
+
+\subtitle{Integer a eleifend felis, vitae fringilla risus. Vivamus hendrerit ex a mauris rhoncus.}
+
+\author{Lorem Ipsum}
+
+\thyear{2015}
+
+\department{Department of Information and Communication Technologies}
+
+\supervisor{Dr. Lorem Ipsum}
+
+\second_supervisor{Dr. Ipsum Lorem}
+% -----------------------------------------------------------------------------
+
+
+\begin{document}
+
+
+
+% Acknowledgements
+% -----------------------------------------------------------------------------
+\maketitle
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+% Acknowledgements
+% -----------------------------------------------------------------------------
+\input{latex/acknowledgements.tex}
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+
+% Abstract
+% -----------------------------------------------------------------------------
+\input{latex/abstract.tex}
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+
+% Table of contents
+% -----------------------------------------------------------------------------
+\tableofcontents
+% -----------------------------------------------------------------------------
+
+
+
+% List of figures
+% -----------------------------------------------------------------------------
+\listoffigures
+\addcontentsline{toc}{chapter}{Figures index}
+% -----------------------------------------------------------------------------
+
+
+% List of tables
+% -----------------------------------------------------------------------------
+\listoftables
+\addcontentsline{toc}{chapter}{Tables index}
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+
+% First sample chapter
+% -----------------------------------------------------------------------------
+\input {latex/sample_chapter.tex}
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+
+% Second sample chapter
+% -----------------------------------------------------------------------------
+\input {latex/sample_chapter2.tex}
+\newpage\leavevmode\thispagestyle{empty}\newpage
+% -----------------------------------------------------------------------------
+
+
+
+% Bibliography
+% -----------------------------------------------------------------------------
+\bibliography{bibliography}
+% -----------------------------------------------------------------------------
+
+
+
+% Index
+% -----------------------------------------------------------------------------
+\printindex
+% -----------------------------------------------------------------------------
+
+
+\end{document}
