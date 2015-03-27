@@ -1,9 +1,0 @@
-\select@language {english}
-\select@language {english}
-\contentsline {chapter}{Figures index}{7}
-\contentsline {chapter}{Tables index}{8}
-\contentsline {chapter}{\numberline {1}{\MakeUppercase { The sample chapter}}}{10}
-\contentsline {section}{\numberline {1.1}A section}{10}
-\contentsline {subsection}{\numberline {1.1.1}A subsection}{10}
-\contentsline {section}{\numberline {1.2}Another section}{10}
-\contentsline {chapter}{\numberline {2}{\MakeUppercase { The second chapter}}}{14}
