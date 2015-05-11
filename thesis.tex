@@ -44,6 +44,22 @@
 
 \selectlanguage{english}
 
+% roman page numbers on pages before chapters
+\newcommand\frontmatter{
+    \cleardoublepage
+    \pagenumbering{roman}}
+\newcommand\mainmatter{
+    \cleardoublepage
+    \pagenumbering{arabic}}
+\newcommand\backmatter{
+    \if@openright
+        \cleardoublepage
+    \else
+        \clearpage
+    \fi
+}
+
+
 
 % your information here
 % -----------------------------------------------------------------------------
@@ -73,6 +89,7 @@
 \newpage\leavevmode\thispagestyle{empty}\newpage
 % -----------------------------------------------------------------------------
 
+\frontmatter
 
 % Acknowledgements
 % -----------------------------------------------------------------------------
@@ -112,6 +129,7 @@
 % -----------------------------------------------------------------------------
 
 
+\mainmatter
 
 % First sample chapter
 % -----------------------------------------------------------------------------
