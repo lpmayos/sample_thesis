@@ -101,11 +101,18 @@
 \def\@department{}
 \def\department#1{\def\@department{#1}}
 
+\def\@depSupervisor{}
+\def\depSupervisor#1{\def\@depSupervisor{#1}}
+
+\def\@depSecondSupervisor{}
+\def\depSecondSupervisor#1{\def\@depSecondSupervisor{#1}}
+
+
 \def\@supervisor{}
 \def\supervisor#1{\def\@supervisor{#1}}
 
-\def\@second_supervisor{}
-\def\second_supervisor#1{\def\@second_supervisor{#1}}
+\def\@secondSupervisor{}
+\def\secondSupervisor#1{\def\@secondSupervisor{#1}}
 
 
 
@@ -167,8 +174,8 @@
       \rule{\linewidth}{1.4mm}\\[3cm]
       {\large MASTER THESIS UPF / \@thyear}\\[1cm]
       {\normalsize THESIS SUPERVISORS}\\[0.7cm]
-      {\large \@supervisor}, {\small (\@department)}\\[0.2cm]
-      {\large \@second_supervisor}, {\small (\@department)}\\[0.7cm]
+      {\large \@supervisor}, {\small (\@depSupervisor)}\\[0.2cm]
+      {\large \@secondSupervisor}, {\small (\@depSecondSupervisor)}\\[0.7cm]
       {\normalsize  \MakeUppercase{\@department}}\\[2cm]
       \begin{center}
           \includegraphics[scale=0.3]{images/logo_upf.png}
