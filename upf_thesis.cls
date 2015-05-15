@@ -284,17 +284,17 @@
      \interlinepenalty \@M
      \normalfont
      \ifnum \c@secnumdepth >-2\relax
-       \huge\bfseries \partname\nobreakspace\thepart
+       \large\bfseries \partname\nobreakspace\thepart
        \par
        \vskip 20\p@
      \fi
-     \Huge \bfseries #2\par}%
+     \Large \bfseries #2\par}%
     \@endpart}
 \def\@spart#1{%
     {\centering
      \interlinepenalty \@M
      \normalfont
-     \Huge \bfseries #1\par}%
+     \Large \bfseries #1\par}%
     \@endpart}
 \def\@endpart{\vfil\newpage
               \if@twoside
@@ -334,17 +334,17 @@
                       \@afterheading
                     \fi}
 \def\@makechapterhead#1{%
-  \vspace*{50\p@}%
+  %\vspace*{100\p@}%
   {\parindent \z@ \raggedright \normalfont
     \ifnum \c@secnumdepth >\m@ne
       \if@mainmatter
-        \huge\bfseries \@chapapp\space \thechapter
+        \large\bfseries \@chapapp\space \thechapter
         \par\nobreak
         \vskip 20\p@
       \fi
     \fi
     \interlinepenalty\@M
-    \Huge \bfseries \MakeUppercase{ #1}\par\nobreak
+    \Large \bfseries \MakeUppercase{ #1}\par\nobreak
     \vskip 40\p@
   }}
 \def\@schapter#1{\if@twocolumn
@@ -354,11 +354,11 @@
                    \@afterheading
                  \fi}
 \def\@makeschapterhead#1{%
-  \vspace*{50\p@}%
+  %\vspace*{50\p@}%
   {\parindent \z@ \raggedright
     \normalfont
     \interlinepenalty\@M
-    \Huge \bfseries  #1\par\nobreak
+    \Large \bfseries  #1\par\nobreak
     \vskip 40\p@
   }}
 \newcommand\section{\@startsection {section}{1}{\z@}%
