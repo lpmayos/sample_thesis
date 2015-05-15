@@ -94,12 +94,16 @@
 
 \def\@subtitle{}
 \def\subtitle#1{\def\@subtitle{#1}}
+
 \def\@thyear{}
 \def\thyear#1{\def\@thyear{#1}}
+
 \def\@department{}
 \def\department#1{\def\@department{#1}}
+
 \def\@supervisor{}
 \def\supervisor#1{\def\@supervisor{#1}}
+
 \def\@second_supervisor{}
 \def\second_supervisor#1{\def\@second_supervisor{#1}}
 
@@ -153,20 +157,24 @@
   \if@titlepage
   \newcommand\maketitle{
   \begin{titlepage}
-  
-    {\LARGE \sffamily \@title}\\[1cm]
-    {\large \sffamily \@subtitle}\\[3cm]
-    {\LARGE  \@author}\\[0.1cm]
-    \rule{\linewidth}{1.2mm}\\[3cm]
-    {\large MASTER THESIS UPF / \@thyear}\\[1cm]
-    {\normalsize THESIS SUPERVISORS}\\[1cm]
-    {\large \@supervisor}, {\large Departament \@department}\\[0.5cm]
-    {\large \@second_supervisor}, {\large Departament \@department}\\[1cm]
-    \begin{center}
-        \includegraphics[scale=0.3]{images/logo_upf.png}
-    \end{center}
+      \vspace*{1.5cm}
+      \begin{spacing}{1.8}
+        {\LARGE \sffamily \@title}\\[1.5cm]
+        {\large \sffamily \@subtitle}\\[1.5cm]
+      \end{spacing}
 
-\end{titlepage}%
+      {\LARGE  \@author}\\[0.1cm]
+      \rule{\linewidth}{1.4mm}\\[3cm]
+      {\large MASTER THESIS UPF / \@thyear}\\[1cm]
+      {\normalsize THESIS SUPERVISORS}\\[0.7cm]
+      {\large \@supervisor}, {\small (\@department)}\\[0.2cm]
+      {\large \@second_supervisor}, {\small (\@department)}\\[0.7cm]
+      {\normalsize  \MakeUppercase{\@department}}\\[2cm]
+      \begin{center}
+          \includegraphics[scale=0.3]{images/logo_upf.png}
+      \end{center}
+      
+  \end{titlepage}%
 
 
   \setcounter{footnote}{0}%

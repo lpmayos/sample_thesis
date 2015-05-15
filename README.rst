@@ -8,6 +8,31 @@ It was based on the UPF template for PhD thesis.
 The .tex file contains some sample chapters to illustrate how it works.
 
 
+
+Procedure approved
+------------------
+
+The complete procedure approved by the Postgraduate and Doctoral Studies Committee on 27 October 2008 that can be found at http://www.upf.edu/bibtic/en/guiesiajudes/eines/tesis/dina4.html, "How to present a doctoral thesis in A4 format".
+
+Regarding the style:
+
+*Fonts*: Times New Roman, Arial (preferably in upper case), Garamond
+
+*Size*:
+    - Epigraphs, chapter titles and section titles: 16 points.
+    - Body of the thesis: 11 or 12 points, with single spacing or 1.5 spacing. 
+    - Figure captions and footnotes: 10 points.
+
+*Margins*:
+    - Top, bottom and side margins must be 3 cm. 
+    - The margins cannot be used for footnotes. 
+
+*Paragraphs*:
+    - The first lines of paragraphs should not be indented.
+
+
+
+
 One side, two sides
 -------------------
 
