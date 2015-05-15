@@ -163,7 +163,7 @@
     {\large \@supervisor}, {\large Departament \@department}\\[0.5cm]
     {\large \@second_supervisor}, {\large Departament \@department}\\[1cm]
     \begin{center}
-        \includegraphics[scale=1]{images/logo_upf.png}
+        \includegraphics[scale=0.3]{images/logo_upf.png}
     \end{center}
 
 \end{titlepage}%
