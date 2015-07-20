@@ -317,7 +317,7 @@
                          \refstepcounter{chapter}%
                          \typeout{\@chapapp\space\thechapter.}%
                          \addcontentsline{toc}{chapter}%
-                                   {\protect\numberline{\thechapter}{\MakeUppercase{ #1}}}%
+                                   {\protect\numberline{\thechapter}{ #1}}%
                        \else
                          \addcontentsline{toc}{chapter}{\MakeUppercase{ #1}}%
                        \fi
