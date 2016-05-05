@@ -163,6 +163,7 @@
 
   \if@titlepage
   \newcommand\maketitle{
+  \pagenumbering{Alph}
   \begin{titlepage}
       \vspace*{1.5cm}
       \begin{spacing}{1.8}
