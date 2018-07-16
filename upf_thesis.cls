@@ -172,12 +172,12 @@
       \end{spacing}
 
       {\LARGE  \@author}\\[0.1cm]
-      \rule{\linewidth}{1.4mm}\\[3cm]
+      \rule{\linewidth}{1.4mm}\\[2.5cm]
       {\large MASTER THESIS UPF / \@thyear}\\[1cm]
       {\normalsize THESIS SUPERVISORS}\\[0.7cm]
-      {\large \@supervisor}, {\small (\@depSupervisor)}\\[0.2cm]
-      {\large \@secondSupervisor}, {\small (\@depSecondSupervisor)}\\[0.7cm]
-      {\normalsize  \MakeUppercase{\@department}}\\[2cm]
+      {\large \@supervisor}, {\@depSupervisor}\\[0.2cm]
+      {\large \@secondSupervisor}, {\@depSecondSupervisor}\\[0.7cm]
+      {\normalsize  \@department}\\[2cm]
       \begin{center}
           \includegraphics[scale=0.3]{images/logo_upf.png}
       \end{center}
